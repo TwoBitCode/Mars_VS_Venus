@@ -62,3 +62,12 @@ The game is designed for both PC and mobile platforms, featuring a user-friendly
 ### 8. 🏆 Possible Outcomes
 - **Success and Failure**: Players can either progress by resolving scenarios correctly or fail by making too many incorrect choices. Some outcomes are revealed during play, showing the nuances of the other side’s thinking.
 - **Skill vs. Luck**: Success relies primarily on the player's understanding and interpretation skills, with minimal reliance on chance.
+
+## 👥 Team Members
+
+- **Lead Developers**: Vivian Umansky & Miriam Nagar  
+  *Roles*: Coding, design, and implementation.
+
+## 🔧 Installation
+
+*(Note: Installation instructions will be added once the project is ready for release)*
