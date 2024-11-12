@@ -2,6 +2,8 @@
 
 *"Can you truly understand the other side?"*
 
+![DALL·E 2024-11-12 14 07 01 - A fictional game setting illustrating a contrast between Mars and Venus themes_ a split-screen showing two distinct environments  On the left, a red, ](https://github.com/user-attachments/assets/bd9a96f4-d7f8-4b43-bb02-c67b0bdb69a8)
+
 ## 🧠 Game Overview
 *Mars vs Venus: The Battle of Minds* places players in a fictional world where men (Mars) and women (Venus) are portrayed as distinct beings with unique mentalities, emotions, and perspectives. The player selects a side – Mars or Venus – and navigates through intergender challenges. The aim is to comprehend the emotions of the opposite side and respond effectively to resolve interpersonal situations. Each scenario mirrors real-life relationship challenges, featuring interactions, dialogues, and creative solutions that lead to success or failure. Players make choices based on responses from others, requiring them to interpret emotions and solve communication problems to progress successfully.
 
