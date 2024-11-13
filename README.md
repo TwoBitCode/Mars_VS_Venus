@@ -2,7 +2,7 @@
 
 *"Can you truly understand the other side?"*
 
-Discover the core formal elements of *Mars vs Venus* and detailed game insights on our [Wiki page](https://github.com/TwoBitCode/Mars_VS_Venus/wiki).
+Discover the core formal elements of *Mars vs Venus* and detailed game insights on our [Wiki page](https://github.com/TwoBitCode/Mars_VS_Venus/wiki/Formal-Elements).
 
 ![DALL·E 2024-11-12 14 07 01 - A fictional game setting illustrating a contrast between Mars and Venus themes_ a split-screen showing two distinct environments  On the left, a red, ](https://github.com/user-attachments/assets/bd9a96f4-d7f8-4b43-bb02-c67b0bdb69a8)
 
