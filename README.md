@@ -2,6 +2,8 @@
 
 itch link: https://twobitcode.itch.io/mars-vs-venus
 
+(for Assignment4: I think our implementation for the senerios is something worth noticing)
+
 *"Can you truly understand the other side?"*
 
 Discover the core formal elements of *Mars vs Venus* and detailed game insights on our [Wiki page](https://github.com/TwoBitCode/Mars_VS_Venus/wiki/Formal-Elements).
