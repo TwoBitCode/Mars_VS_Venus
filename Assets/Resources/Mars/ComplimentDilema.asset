@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8936dc72b00a8a64ea86d82a972cc810, type: 3}
+  m_Name: ComplimentDilema
+  m_EditorClassIdentifier: 
+  description: "Scenario:\nA woman just finished an important project at work, and
+    she\u2019s excited to tell her partner. She says, \u201CI\u2019m so proud of
+    myself for finishing this huge task. It was really challenging, but I made it
+    through!\u201D"
+  choices:
+  - "\"Okay, great! So, what\u2019s for dinner?\""
+  - "\"That\u2019s great! You\u2019re always so strong and capable. What was the
+    hardest part?\""
+  - "\"Wow, that\u2019s awesome! But you know, you always seem to have it all together.\""
+  correctChoiceIndex: 1
+  correctFeedback: "By expressing genuine admiration and showing interest in her
+    experience, you\u2019ve validated her effort and encouraged further conversation."
+  falseFeedback: "She may feel dismissed or unimportant if the conversation shifts
+    away from her achievement. It\u2019s important to provide emotional validation."
+  suspention: 1.5

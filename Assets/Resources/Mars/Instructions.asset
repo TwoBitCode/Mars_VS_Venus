@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8936dc72b00a8a64ea86d82a972cc810, type: 3}
+  m_Name: Instructions
+  m_EditorClassIdentifier: 
+  description: 'Instructions:
+
+    You will be presented with different life situations
+    that could occure with your partner and choose what is the best response to the
+    situation.'
+  choices:
+  - Lets Start
+  correctChoiceIndex: 0
+  correctFeedback: 
+  falseFeedback: 
+  suspention: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8936dc72b00a8a64ea86d82a972cc810, type: 3}
+  m_Name: TheEmotionalSupport
+  m_EditorClassIdentifier: 
+  description: "Scenario:\nYour partner is stressed out from work and says, \u201CI\u2019ve
+    been under so much pressure lately.\""
+  choices:
+  - '"I understand, do you want to talk about it?"'
+  - "\"You should just relax. It can\u2019t be that bad.\""
+  - "\"I\u2019m sure you\u2019ll handle it. Just get it done.\""
+  correctChoiceIndex: 0
+  correctFeedback: Offering to listen shows empathy and gives him a chance to express
+    himself without feeling judged.
+  falseFeedback: "Minimizing his stress or rushing him to \u2018fix\u2019 things
+    can make him feel misunderstood. Men appreciate being listened to."
+  suspention: 1.5

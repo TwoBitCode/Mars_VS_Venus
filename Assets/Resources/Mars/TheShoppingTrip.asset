@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8936dc72b00a8a64ea86d82a972cc810, type: 3}
+  m_Name: TheShoppingTrip
+  m_EditorClassIdentifier: 
+  description: "Scenario:\nA woman is going shopping and asks her partner, \u201CDo
+    you think this dress looks good on me?\u201D"
+  choices:
+  - "\"I don\u2019t know, I\u2019m not really the best judge of clothes.\""
+  - "\"It\u2019s fine, but I think you should try the blue one. It\u2019s cheaper.\""
+  - '"It looks fantastic! You always look amazing.(as long as it''s actually pretty)"'
+  correctChoiceIndex: 2
+  correctFeedback: A compliment can make her feel special and appreciated. She was
+    likely looking for reassurance and support.
+  falseFeedback: "She may feel insecure or dismissed if you don\u2019t affirm her
+    choice or offer thoughtful feedback."
+  suspention: 1.5
