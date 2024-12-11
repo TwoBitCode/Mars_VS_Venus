@@ -1,10 +1,34 @@
 # 🌌 Mars vs Venus: The Battle of Minds 🌌
 
+itch link: https://twobitcode.itch.io/mars-vs-venus
+
 *"Can you truly understand the other side?"*
 
 Discover the core formal elements of *Mars vs Venus* and detailed game insights on our [Wiki page](https://github.com/TwoBitCode/Mars_VS_Venus/wiki/Formal-Elements).
 
 ![DALL·E 2024-11-12 14 07 01 - A fictional game setting illustrating a contrast between Mars and Venus themes_ a split-screen showing two distinct environments  On the left, a red, ](https://github.com/user-attachments/assets/bd9a96f4-d7f8-4b43-bb02-c67b0bdb69a8)
+
+## Features 🌟
+
+- **Two Perspectives** 🔄: Choose to play as Mars or Venus, each with a unique mentality and emotional responses.
+- **Choice-Based Scenarios** 🎭: Navigate through various scenarios with multiple choices that test your emotional intelligence and communication skills.
+- **Correct Answer Scoring** 💰: Earn points for choosing the correct response based on the opposite gender’s perspective.
+- **Feedback System** 📝: Receive feedback after each decision to understand why it was correct or incorrect.
+- **Progressive Challenges** ⏩: Each level presents a new scenario with increasing difficulty, promoting learning and reflection.
+- **Score Display** 🏆: Track your performance and see your score after every decision and at the end of the game.
+
+---
+## How to Play 🕹️
+
+1. **Game Start**: When the game begins, select your gender (Mars or Venus). Your perspective will shape the scenarios that follow.
+2. **Scenario Choice**: Each scenario presents a conflict or relationship challenge with a set of possible responses.
+3. **Make a Choice**: Choose the option that best aligns with how the opposite gender would react in the situation.
+4. **Feedback and Scoring**: After making a choice, the game provides feedback on whether your choice was correct or not, and your score is updated.
+5. **Next Scenario**: The game progresses with a new scenario, challenging you to further understand the other side.
+6. **End of Game**: After completing all scenarios or after a set number of wrong answers, the final score is shown.
+
+---
+
 
 ## 🧠 Game Overview
 *Mars vs Venus: The Battle of Minds* places players in a fictional world where men (Mars) and women (Venus) are portrayed as distinct beings with unique mentalities, emotions, and perspectives. The player selects a side – Mars or Venus – and navigates through intergender challenges. The aim is to comprehend the emotions of the opposite side and respond effectively to resolve interpersonal situations. Each scenario mirrors real-life relationship challenges, featuring interactions, dialogues, and creative solutions that lead to success or failure. Players make choices based on responses from others, requiring them to interpret emotions and solve communication problems to progress successfully.
@@ -62,6 +86,53 @@ The game is designed for both PC and mobile platforms, featuring a user-friendly
 ### 8. 🏆 Possible Outcomes
 - **Success and Failure**: Players can either progress by resolving scenarios correctly or fail by making too many incorrect choices. Some outcomes are revealed during play, showing the nuances of the other side’s thinking.
 - **Skill vs. Luck**: Success relies primarily on the player's understanding and interpretation skills, with minimal reliance on chance.
+
+
+
+## Scripts Breakdown 📝
+
+### `Scenario` 🎮
+
+- **Function**: Represents a single scenario in the game with the question, choices, correct answer, and feedback.
+- **Main Tasks**: Used to store scenario data in a ScriptableObject format.
+
+### `GameManager` 🛠️
+
+- **Function**: Controls the overall gameplay, including selecting scenarios, managing the player’s choices, and updating the score.
+- **Main Tasks**: Handles game flow, tracks the player’s score, and presents the next scenario.
+
+### `ChoiceButton` 🔘
+
+- **Function**: Manages the behavior of each choice button in the scenario.
+- **Main Tasks**: When clicked, it calls the `MakeChoice()` function in `GameManager` to check if the answer is correct and updates the score.
+
+### `ScoreManager` 💰
+
+- **Function**: Manages the player's score, keeping track of points for correct answers.
+- **Main Tasks**: Updates the score text UI and ensures that the score is displayed correctly at all times.
+
+---
+
+## Gameplay Logic 🧠
+
+1. **Choosing Mars or Venus**: The game begins with the player choosing a side (Mars or Venus), each with unique responses.
+2. **Scenario Presentation**: Each scenario presents a challenge or interpersonal situation.
+3. **Answer Choices**: Players must select from multiple answers that represent how the opposite gender would respond.
+4. **Scoring and Feedback**: A correct choice adds to the score, and feedback is given to explain the choice.
+5. **Next Scenario**: If the player chooses correctly, the game moves to the next scenario. Incorrect answers might result in a penalty or a game restart.
+6. **Game Over**: The game concludes when the player finishes all scenarios or chooses incorrectly multiple times. The final score is shown.
+
+---
+
+## How to Customize ✨
+
+- **Scenarios**: You can create new scenarios by adding new `Scenario` ScriptableObjects, customizing the questions, choices, and feedback.
+- **Gender Perspectives**: Modify the Mars and Venus response behaviors to create more realistic or diverse communication patterns.
+- **Score System**: Adjust the scoring system (e.g., adding bonus points for certain choices or deducting points for incorrect answers).
+- **UI Customization**: Adjust the UI layout and design to fit your preferred aesthetic.
+
+---
+
 
 ## 👥 Team Members
 
